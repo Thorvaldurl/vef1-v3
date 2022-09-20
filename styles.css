@@ -1,0 +1,203 @@
+/*
+Setjum inn „reset“ sem fjarlægir margin og padding af öllu
+Þessu má ekki breyta
+*/
+* {
+  
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+
+header {
+ 
+
+  padding: 16px;
+  text-align: center;
+  background: #00bfff;
+  color: black;
+  font-size: 16px;
+}
+
+img.pic {
+  float: left;
+
+  
+}
+
+
+
+
+
+
+/*
+Reiknum stærð á öllum boxum sem border-box.
+Þessu má breyta eða fjarlægja.
+*/
+html {
+  box-sizing: border-box;
+  font-size:16px;
+}
+
+/* og látum erfast á allt */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* hjálpar class sem felur sjónrænt en skjálesarar lesa */
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+/* Uppsetning á síðu—layout */
+.content {
+  /* Lætur börn .content raða sér með _flexbox_ */
+  display: flex;
+  /* röðun sé í dálkaröð (niður) */
+  flex-direction: column;
+}
+
+.content > header {
+}
+
+.content > nav {
+}
+
+.content > main {
+  /* Lætur <main> taka allt auka pláss sem er í boði */
+  flex: 1;
+}
+
+.content > footer {
+
+
+}
+
+/* almennar skilgreiningar */
+
+h1 {
+  /* TODO setja almennar skilgreinar fyrir fyrirsagnir */
+}
+
+h1, h2 {
+  
+  /* TODO setja almennar skilgreinar fyrir fyrirsagnir */
+}
+
+a {
+  /* TODO setja almennar skilgreinar fyrir tengla */
+}
+
+/* nav — valmynd */
+
+nav ul {
+  color: black;
+  text-decoration: underline;
+  display: flex;
+  text-align: justify;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-style: regular;
+  font-weight: 700;
+  padding: 1rem;
+  text-decoration: underline;
+
+
+}
+nav ul li {
+  padding: 1rem;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: regular;
+  font-weight: 400;
+  text-decoration: none;
+  
+
+}
+
+
+a {
+  color: black;
+  text-decoration: underline;
+  
+  
+}
+
+
+
+/* TODO */
+
+
+/* main — meginmál */
+
+/* TODO */
+
+/* töflur */
+
+tr{
+text-align: left;
+}
+table {
+  border-spacing: 0;
+  
+
+}
+
+tr:nth-child(even){
+  background-color: #afebff;
+  
+
+}
+/* TODO */
+
+/* form */
+
+/* TODO */
+
+footer {
+  padding: 16px;
+  text-align: center;
+  background: #00bfff;
+  color: black;
+  font-size: 16px;
+  display:flex;
+  
+}
+
+
+fieldset {
+border-spacing: 1px;
+border-color: #00bfff;
+font-family: 'Inter';
+  font-style: regular;
+  font-weight: 400;
+
+}
+
+legend {
+  font-size: 24px;
+  font-family: 'Inter';
+  font-style: regular;
+  font-weight: 400;
+  
+  }
+
+  button{
+    border-spacing: 1px;
+    background-color: #afebff;
+    border-color: #00bfff;
+    border-radius: 6px
+    
+    }
+
+   
