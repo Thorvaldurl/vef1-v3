@@ -1,3 +1,4 @@
 -Footer skritinn a bokasidunni
 -Nadi ekki ad downloada fontinu. Reyndi ad setja thad upp, en error kemur i css validator
 -Ekki gekk upp ad taka undirlinu ur inactive i valmynd
+-Einnig er CSS i bara einhverri rod, mun baetast thegar lidur a 
