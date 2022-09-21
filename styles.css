@@ -116,6 +116,11 @@ list-style-type: none;
 
 
 }
+
+nav ul li a{
+text-decoration: none;
+}
+
 nav ul li {
   padding: 1rem;
   /* margin-left: 4rem; */
@@ -123,8 +128,13 @@ nav ul li {
   text-decoration: none;
   /* background-color: yellow; */
  
-  
 
+
+}
+
+
+nav strong {
+  text-decoration: underline;
 }
 img{
   margin-bottom: 1rem;
